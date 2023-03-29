@@ -1,0 +1,46 @@
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    html {
+        font-size: 58%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    h1,
+    #contact h2 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    footer p {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    html {
+        font-size: 55%;
+    }
+
+    #navbar {
+        justify-content: space-evenly;
+    }
+
+    .nav-list {
+        margin-right: 0;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 3rem;
+    }
+}
